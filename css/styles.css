@@ -1,13 +1,48 @@
+:root{
+   --blanco: #fff;
+   --oscuro: #212121;
+   --primario: #ffc107;
+   --secundario: #0097a7;
+   --gris: #757575;
+
+   
+}
+
+ 
+
 html{
    font-size: 62.5%;
 }
 body{
    font-size: 16px;/*1rem=10px*/
+      font-family: "Krub", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    
 }
 .título{
     text-align: center;
-    font-size: 3.8rem;   
+    font-size: 3.8rem; 
+   
 }
+
 .título span{
      font-size: 2rem;   
+}
+
+.nav-bg{
+   background-color: var(--secundario) ;
+
+}
+
+.navegacion-principal{
+   padding: 1rem; /*para anchar, ocupa espacio contrario al margin*/
+   display:flex;
+   justify-content: space-evenly;
+
+}
+.navegacion-principal a{
+  color: var(--blanco);
+  text-decoration:none ;
+
 }
